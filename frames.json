@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Showcase\n of ASCII\nRender",
+    "fontSize": 12,
+    "lineHeight": 11,
+    "charWidth": 7,
+    "duration": 3
+  },
+  {
+    "text": "Created to\n help on\n Pongo \nGame",
+    "fontSize": 12,
+    "lineHeight": 11,
+    "charWidth": 7,
+    "duration": 3
+  },
+
+  {
+    "text": "Thank You!",
+    "fontSize": 12,
+    "lineHeight": 11,
+    "charWidth": 7,
+    "duration": 2
+  },
+  {
+    "text": "Bye Bye!",
+    "fontSize": 12,
+    "lineHeight": 11,
+    "charWidth": 7,
+    "duration": 2
+  }
+]

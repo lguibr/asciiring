@@ -5,7 +5,6 @@ import (
 	"math"
 	"strings"
 
-	"github.com/lguibr/asciiring/helpers"
 	"github.com/lguibr/asciiring/types"
 )
 
@@ -56,7 +55,6 @@ func RenderToASCII(pixels [][]types.RGBPixel, resolution int, color *types.RGBPi
 		r, g, b = color.R, color.G, color.B
 	}
 	colorCode := ansiColorCode(r, g, b)
-	helpers.ClearScreen()
 	for y := 0.0; y < float64(height-1); y += stepY {
 		for x := 0.0; x < float64(width-1); x += stepX {
 			i, j := int(math.Round(x)), int(math.Round(y))

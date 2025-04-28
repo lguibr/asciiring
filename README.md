@@ -1,8 +1,11 @@
 # ASCII Render Library
 
+<p align="center">
+  <img src="bitmap.png" alt="Logo" width="300"/>
+</p>
+
 The ASCII Render Library is a Golang library that helps you create ASCII art from images and text. This library can also convert your ASCII art into images.
 
-![ASCII Render Library Showcase](asci_render_lib_showcase.gif)
 
 This library is composed of three main packages:
 
@@ -11,6 +14,8 @@ This library is composed of three main packages:
 3. `types` contains the data types used by the other packages.
 
 **An important feature of this project is that it has zero dependencies, making it lightweight and easy to integrate into your existing projects.**
+
+![ASCII Render Library Showcase](asci_render_lib_showcase.gif)
 
 ## Installation
 
